@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(187, 187, 214);
+    background-image: url(https://blog.brasilcloud.com.br/wp-content/uploads/2020/04/seguran%C3%A7a-de-dados-scaled.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+.table{
+    margin: 20px auto;
+    width:50%
+}
+.table tr th{
+    background-color: rgb(89, 44, 131);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+header{
+    padding: 10px;
+    background-color: rgb(89, 44, 131);
+}
+
+img{
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  rgb(89, 44, 131);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.infosContato{
+    padding: 5px;
+}
+.infosEndereco{
+    margin-top: 5px;
+    padding: 5px;
+}
+.btn{
+    margin-top: 20px;
+}
