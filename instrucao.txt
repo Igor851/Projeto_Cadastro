@@ -9,3 +9,18 @@ python -m pip install Pillow            ()
 python manage.py migrate                (migra as migrações que ja estão prontas)
 python manage.py makemigrations         (prepara a migração)
 python manage.py createsuperuser        (criar o usuario e cadastrar a senha)
+
+
+
+
+
+GIT HUB:
+git init     (inicia o git)
+git remote add origin https://github.com/Igor851/Projeto_Cadastro.git      (add o link do git hub)
+git status (ver a situação dos arquivos)
+git config --global user.email "email@example.com"  (adcionar o email)
+git config --global user.name "Username"
+git push --set-upstream origin master   (prepara o push)
+git add . (adciona todos os arquivos da pasta)
+git commit -m "comentário"
+git push (envia para o git hub)
