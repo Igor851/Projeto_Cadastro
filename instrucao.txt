@@ -20,7 +20,8 @@ git remote add origin https://github.com/Igor851/Projeto_Cadastro.git      (add 
 git status (ver a situação dos arquivos)
 git config --global user.email "email@example.com"  (adcionar o email)
 git config --global user.name "Username"
-git push --set-upstream origin master   (prepara o push)
+git push --set-upstream origin master   (prepara o push pra o origin (Nome))
 git add . (adciona todos os arquivos da pasta)
 git commit -m "comentário"
 git push (envia para o git hub)
+git checkout -b versao1 
