@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="POST" target="_self" autocomplete="on"> {% csrf_token %}
+
+    <fieldset>
+        <legend>Perfil</legend>
+        <div class="content">
+            <div class="form-content">
+                <label for="">Foto*:</label>
+                {{ form.foto }}
+                <label for="">Nome*:</label>
+                {{ form.nome }}
+            </div>
+            
+            <div class="form-content">
+                <label for="">Idade*:</label>
+                {{ form.idade }}
+                <label for="">Nota*:</label>
+                {{ form.nota }}
+            </div>
+        </div> 
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados</legend>
+        <div class="content">
+            <div class="form-content">
+                <label for="">Endereço*:</label>
+                {{ form.endereco }}
+                <label for="">CEP*:</label>
+                {{ form.cep }}
+            </div>
+            
+            <div class="form-content">
+                <label for="">CPF*:</label>
+                {{ form.cpf }}
+                <label for="">Contato*:</label>
+                {{ form.contato }}
+                <label for="">Email*:</label>
+                {{ form.email }}
+            </div>
+        </div>
+    </fieldset>
+
+<input type="submit" value="Enviar"> 
+</form>
+
+{% endblock %}

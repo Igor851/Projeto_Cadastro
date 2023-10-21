@@ -9,6 +9,7 @@ class Aluno(models.Model):
     cep = models.CharField(max_length=8)
     email = models.EmailField()
     contato = models.CharField(max_length=11)
+    nota = models.IntegerField(max_length=2)
     def __str__(self):
         return self.nome
 

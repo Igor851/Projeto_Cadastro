@@ -1,9 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-    background-color: rgb(187, 187, 214);
-    background-image: url(https://blog.brasilcloud.com.br/wp-content/uploads/2020/04/seguran%C3%A7a-de-dados-scaled.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: linear-gradient(
+    to left,
+    rgb(88, 19, 116),
+    rgb(59, 0, 168)
+    );
 }
 
 .titulo{
@@ -15,13 +19,13 @@ body{
     width:50%
 }
 .table tr th{
-    background-color: rgb(89, 44, 131);
+    background-color: rgb(121, 35, 201);
     color: white;
     text-shadow: 1px 1px 2px black;
 }
 header{
     padding: 10px;
-    background-color: rgb(89, 44, 131);
+    background-color: rgb(121, 35, 201);
 }
 
 img{
@@ -35,7 +39,7 @@ img{
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
-    background-color:  rgb(89, 44, 131);
+    background-color:  rgb(121, 35, 201);
     color: white;
     text-shadow: 1px 1px 2px black;
 }
@@ -48,4 +52,66 @@ img{
 }
 .btn{
     margin-top: 20px;
+}
+.btnHeader{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #482D70;
+    color: white;
+    text-decoration: none;
+}
+
+/* fieldset{
+    padding: 20px 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 10px;
+} */
+fieldset legend{
+    margin: 0 0 0 0px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* *** Inputs *** */
+input[type=text], input[type=Number], input[type=file], input[type=date],input[type=email], input[type=password] ,select{
+    width: 70%;
+    height: 40px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #eee;
+    box-shadow: #666 1px 2px 5px;
+    border-radius: 5px;
+}
+/* ***  fieldset Content  *** */
+.form-content {
+    width: 45%;
+}
+
+.form-content > label{
+    color: rgb(241, 236, 236);
+    text-shadow: 2px 1px black;
+    font-weight: bold;
+    display: block;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
 }
